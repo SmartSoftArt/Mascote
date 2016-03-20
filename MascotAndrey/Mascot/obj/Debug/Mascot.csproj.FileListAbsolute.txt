@@ -11,3 +11,16 @@ F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\bin\Debug\Mascot.exe
 F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\bin\Debug\Mascot.pdb
 F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.exe
 F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\App.g.cs
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
