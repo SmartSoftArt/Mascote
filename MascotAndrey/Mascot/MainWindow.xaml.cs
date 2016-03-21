@@ -22,23 +22,27 @@ namespace Mascot {
   public partial class MainWindow : Window {
     ImageBrush image = new ImageBrush();
     ImageBrush image1 = new ImageBrush();
+    bool i = true;
+
     public MainWindow() {
       InitializeComponent();
       System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
+      image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1.png"));
+      image1.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime2.png"));
       timer.Tick += new EventHandler(TimerTick);
       timer.Interval = new TimeSpan(0, 0, 0, 0, 100);
       timer.Start();
+
     }
 
     private void TimerTick(object sender, EventArgs e) {
-      Thread.Sleep(100);
-      this.Background = null;
-      image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1.png"));
-      this.Background = image;
-      Thread.Sleep(100);
-      this.Background = null;
-      image1.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime2.png"));
-      this.Background = image1;
+      if (i) {
+        grid.Background = image;
+        i = false;
+      } else {
+        grid.Background = image1;
+        i = true;
+      }
     }
   }
 }
