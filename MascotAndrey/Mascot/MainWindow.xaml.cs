@@ -12,27 +12,33 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
+using System.Threading;
 
 namespace Mascot {
   /// <summary>
   /// Логика взаимодействия для MainWindow.xaml
   /// </summary>
   public partial class MainWindow : Window {
+    ImageBrush image = new ImageBrush();
+    ImageBrush image1 = new ImageBrush();
     public MainWindow() {
       InitializeComponent();
-    }
-
-    private void Button_Click(object sender, RoutedEventArgs e) {
       System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
       timer.Tick += new EventHandler(TimerTick);
-      timer.Interval = new TimeSpan(0, 0, 3);
+      timer.Interval = new TimeSpan(0, 0, 0, 0, 100);
       timer.Start();
     }
 
     private void TimerTick(object sender, EventArgs e) {
-      MainWindow1.Left += 10;
-      MainWindow1.Top += 10;
-      
+      Thread.Sleep(100);
+      this.Background = null;
+      image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1.png"));
+      this.Background = image;
+      Thread.Sleep(100);
+      this.Background = null;
+      image1.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime2.png"));
+      this.Background = image1;
     }
   }
 }
