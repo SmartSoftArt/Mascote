@@ -35,11 +35,13 @@ namespace Mascot {
     private void TimerTick(object sender, EventArgs e) {
       if (i) {
         image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1.png"));
-        grid.Background = image;
+        //grid.Background = image;
+        this.Background = image;
         i = false;
       } else {
         image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1b.png"));
-        grid.Background = image;
+        //grid.Background = image;
+        this.Background = image;
         i = true;
       }
     }
