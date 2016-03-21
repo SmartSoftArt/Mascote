@@ -21,14 +21,11 @@ namespace Mascot {
   /// </summary>
   public partial class MainWindow : Window {
     ImageBrush image = new ImageBrush();
-    ImageBrush image1 = new ImageBrush();
     bool i = true;
 
     public MainWindow() {
       InitializeComponent();
       System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
-      image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1.png"));
-      image1.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime2.png"));
       timer.Tick += new EventHandler(TimerTick);
       timer.Interval = new TimeSpan(0, 0, 0, 0, 100);
       timer.Start();
@@ -37,10 +34,12 @@ namespace Mascot {
 
     private void TimerTick(object sender, EventArgs e) {
       if (i) {
+        image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1.png"));
         grid.Background = image;
         i = false;
       } else {
-        grid.Background = image1;
+        image.ImageSource = new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "img/shime1b.png"));
+        grid.Background = image;
         i = true;
       }
     }
