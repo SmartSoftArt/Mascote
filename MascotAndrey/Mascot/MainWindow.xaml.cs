@@ -43,7 +43,7 @@ namespace Mascot {
         }
         private void TimerTick(object sender, EventArgs e) 
         {
-          mascote.Walk();
+          mascote.ActionMascote();
         }
   }
 }

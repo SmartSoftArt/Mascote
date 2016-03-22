@@ -17,7 +17,7 @@ using System.Threading;
 
 namespace Mascot {
   class Mascote {
-    private volatile int numAct = 0;
+    private volatile int numAction = 0;
     private volatile int gotTicks = 0;
     private volatile bool step = true;
     private volatile int xToMove;
@@ -28,6 +28,9 @@ namespace Mascot {
     private Random random = new Random();
     private MainWindow window;
     private Grid grid;
+    private int dx = 10;
+    public int ScreenHeight = (int)SystemParameters.PrimaryScreenHeight;
+    public int ScreenWidth = (int)SystemParameters.PrimaryScreenWidth;
     
 
     public Mascote(Grid mascote, MainWindow mainwindow) {
@@ -42,13 +45,13 @@ namespace Mascot {
         Thread.Sleep(random.Next(5000));
         int buf = random.Next(2);
         if (buf == 1) {
-          xToMove = random.Next(1366);
+          xToMove = random.Next(341) + 1024;
         }
-        numAct = buf;
+        numAction = buf;
       }
     }
-    public void Walk() {
-      switch (numAct) {
+    public void ActionMascote() {
+      switch (numAction) {
         case 0: {
             this.doStand();
             break;
@@ -65,21 +68,25 @@ namespace Mascot {
             }
 
             if (step) {
-              AnimationMascote.Animation(grid, wayWhimeTwo);
-              step = false;
+                AnimationMascote.Animation(grid, wayWhimeTwo);
+                step = false;
             } else {
               AnimationMascote.Animation(grid, wayShimeOne);
               if (toRight == true) {
                 if (window.Left < xToMove) {
-                  window.Left += 10;
+                  if (window.Left < ScreenWidth - grid.Width){
+                    window.Left += dx;
+                  }
                 } else {
-                  numAct = 0;
+                  numAction = 0;
                 }
               } else {
                 if (window.Left > xToMove) {
-                  window.Left -= 10;
+                  if (window.Left > (ScreenWidth % 2)) {
+                    window.Left -= dx;
+                  } 
                 } else {
-                  numAct = 0;
+                  numAction = 0;
                 }
               }
               step = true;
