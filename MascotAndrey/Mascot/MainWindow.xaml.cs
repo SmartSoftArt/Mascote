@@ -37,8 +37,8 @@ namespace Mascot {
             tray.MouseClick += tray_MouseClick;
         }
         void tray_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
-          if (e.Button == System.Windows.Forms.MouseButtons.Left) {
-            
+          if (e.Button == System.Windows.Forms.MouseButtons.Right) {
+        
           }
         }
         private void TimerTick(object sender, EventArgs e) 
