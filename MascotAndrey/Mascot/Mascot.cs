@@ -75,6 +75,10 @@ namespace Mascot {
             this.doNotification();
             break;
           }
+        case 3: {
+            this.doMenu();
+            break;
+          }
       }
     }
     private void doStand() {
@@ -137,6 +141,21 @@ namespace Mascot {
           }
 
         case 2: {
+            step = 0;
+            break;
+          }
+      }
+    }
+    private void doMenu() {
+      wayShime[0] = ("img/shime54.png");
+      wayShime[1] = ("img/shime55.png");
+      AnimationMascote.Animation(grid, wayShime[step]);
+      switch (step) {
+        case 0: {
+          step = 1;
+          break;
+          }
+        case 1: {
             step = 0;
             break;
           }

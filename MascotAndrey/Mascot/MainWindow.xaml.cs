@@ -51,7 +51,7 @@ namespace Mascot {
       //Таймер для анимации
       System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
       timer.Tick += new EventHandler(TimerTick);
-      timer.Interval = new TimeSpan(0, 0, 0, 0, 100);
+      timer.Interval = new TimeSpan(0, 0, 0, 0, 170);
       timer.Start();
 
       //Работа с гридом
@@ -94,7 +94,7 @@ namespace Mascot {
 
     void tray_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
       if (e.Button == System.Windows.Forms.MouseButtons.Left) {
-        if (notification.IsOpen) {
+        if (!notification.IsOpen) {
           this.Top += 17;
         }
         notification.IsOpen = true;
@@ -120,15 +120,21 @@ namespace Mascot {
 
     private void Button_Click(object sender, RoutedEventArgs e) {
       mascote.threadMascot.Resume();
+      this.Top -= 17;
+      mascote.NumAction = 0;
       notification.IsOpen = false;
     }
 
     private void grid_Click(object sender, EventArgs e) {
       if (MenuIsShow == false) {
         MenuShow();
+        mascote.threadMascot.Suspend();
+        mascote.NumAction = 3;
         MenuIsShow = true;
       } else {
         MenuClose();
+        mascote.threadMascot.Resume();
+        mascote.NumAction = 0;
         MenuIsShow = false;
       }
 
