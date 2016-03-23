@@ -176,16 +176,16 @@ namespace Mascot {
     }
 
     private void MenuClose() {
-      var animation1 = new DoubleAnimation();
-      var animation2 = new ThicknessAnimation();
+      var animationDouble = new DoubleAnimation();
+      var animationThicknness = new ThicknessAnimation();
 
-      animation1.From = But1.Opacity;
-      animation1.To = 0;
-      animation1.Duration = TimeSpan.FromSeconds(0.35);
-      But1.BeginAnimation(OpacityProperty, animation1);
-      But2.BeginAnimation(OpacityProperty, animation1);
-      But3.BeginAnimation(OpacityProperty, animation1);
-      But4.BeginAnimation(OpacityProperty, animation1);
+      animationDouble.From = But1.Opacity;
+      animationDouble.To = 0;
+      animationDouble.Duration = TimeSpan.FromSeconds(0.35);
+      But1.BeginAnimation(OpacityProperty, animationDouble);
+      But2.BeginAnimation(OpacityProperty, animationDouble);
+      But3.BeginAnimation(OpacityProperty, animationDouble);
+      But4.BeginAnimation(OpacityProperty, animationDouble);
 
       Thickness FromThicness = new Thickness();
 
@@ -193,18 +193,18 @@ namespace Mascot {
       FromThicness = But2.Margin;
       ToThicness2 = But2.Margin;
       ToThicness2.Top = 100;
-      animation2.From = FromThicness;
-      animation2.To = ToThicness2;
-      animation2.Duration = TimeSpan.FromSeconds(0.35);
-      But2.BeginAnimation(MarginProperty, animation2);
+      animationThicknness.From = FromThicness;
+      animationThicknness.To = ToThicness2;
+      animationThicknness.Duration = TimeSpan.FromSeconds(0.35);
+      But2.BeginAnimation(MarginProperty, animationThicknness);
 
       ToThicness2.Top = 100;
-      animation2.To = ToThicness2;
-      But3.BeginAnimation(MarginProperty, animation2);
+      animationThicknness.To = ToThicness2;
+      But3.BeginAnimation(MarginProperty, animationThicknness);
 
       ToThicness2.Top = 100;
-      animation2.To = ToThicness2;
-      But4.BeginAnimation(MarginProperty, animation2);
+      animationThicknness.To = ToThicness2;
+      But4.BeginAnimation(MarginProperty, animationThicknness);
     }
 
     public void HideFromAltTab(IntPtr Handle) {
