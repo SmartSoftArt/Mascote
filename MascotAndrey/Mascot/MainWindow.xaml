@@ -12,6 +12,7 @@
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
         <Popup x:Name="notification" AllowsTransparency="True">
+            
             <Grid Height="100" Width="100">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="39*"/>
