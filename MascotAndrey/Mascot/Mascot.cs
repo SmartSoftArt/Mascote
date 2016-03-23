@@ -53,9 +53,7 @@ namespace Mascot {
       while (true) {
         Thread.Sleep(random.Next(5000));
         int buf = random.Next(2);
-        if (buf == 1) {
-          xToMove = xToMove = ScreenWidth - random.Next(341) - windowWidth;
-        }
+        if (buf == 1) { xToMove = xToMove = ScreenWidth - random.Next(341) - windowWidth; }
         numAction = buf;
       }
     }
@@ -70,74 +68,79 @@ namespace Mascot {
             break;
           }
         case 1: {
-            if (window.Left > xToMove) {
-              wayShime[0] = "img/mov/shime2.png";
-              wayShime[1] = "img/mov/shime3.png";
-              toRight = false;
-            } else {
-              wayShime[0] = "img/mov/shime2R.png";// shime 2
-              wayShime[1] = "img/mov/shime3R.png";// shime 3
-              toRight = true;
-            }
-            switch (step) {
-              case 0: {
-                  AnimationMascote.Animation(grid, wayShime[step]);
-                  if (toRight == true) {
-                    if (window.Left < xToMove) {
-                      window.Left += 10;
-                    } else {
-                      numAction = 0;
-                    }
-                  } else {
-                    if (window.Left > xToMove) {
-                      window.Left -= 10;
-                    } else {
-                      numAction = 0;
-                    }
-                  }
-                  step = 1;
-                  break;
-                }
-              case 1: {
-                  AnimationMascote.Animation(grid, wayShime[step]);
-                  step = 0;
-                  break;
-                }
-              default: {
-                  step = 0;
-                  break;
-                }
-            }
+            this.doWalk();
             break;
           }
         case 2: {
-            wayShime[0] = ("img/shime31.png");
-            wayShime[1] = ("img/shime32.png");
-            wayShime[2] = ("img/shime33.png");
-            AnimationMascote.Animation(grid, wayShime[step]);
-            switch (step) {
-              case 0: {
-                  step = 1;
-                  break;
-                }
-
-              case 1: {
-                  step = 2;
-                  break;
-                }
-
-              case 2: {
-                  step = 0;
-                  break;
-                }
-            }
-
+            this.doNotification();
             break;
           }
       }
     }
     private void doStand() {
       AnimationMascote.Animation(grid, "img/shime1.png");
+    }
+    private void doWalk() {
+      if (window.Left > xToMove) {
+        wayShime[0] = "img/mov/shime2.png";
+        wayShime[1] = "img/mov/shime3.png";
+        toRight = false;
+      } else {
+        wayShime[0] = "img/mov/shime2R.png";// shime 2
+        wayShime[1] = "img/mov/shime3R.png";// shime 3
+        toRight = true;
+      }
+      switch (step) {
+        case 0: {
+            AnimationMascote.Animation(grid, wayShime[step]);
+            if (toRight == true) {
+              if (window.Left < xToMove) {
+                window.Left += 10;
+              } else {
+                numAction = 0;
+              }
+            } else {
+              if (window.Left > xToMove) {
+                window.Left -= 10;
+              } else {
+                numAction = 0;
+              }
+            }
+            step = 1;
+            break;
+          }
+        case 1: {
+            AnimationMascote.Animation(grid, wayShime[step]);
+            step = 0;
+            break;
+          }
+        default: {
+            step = 0;
+            break;
+          }
+      }
+    }
+    private void doNotification() {
+      wayShime[0] = ("img/shime31.png");
+      wayShime[1] = ("img/shime32.png");
+      wayShime[2] = ("img/shime33.png");
+      AnimationMascote.Animation(grid, wayShime[step]);
+      switch (step) {
+        case 0: {
+            step = 1;
+            break;
+          }
+
+        case 1: {
+            step = 2;
+            break;
+          }
+
+        case 2: {
+            step = 0;
+            break;
+          }
+      }
     }
   }
 }
