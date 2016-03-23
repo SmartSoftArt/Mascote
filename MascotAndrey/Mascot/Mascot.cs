@@ -15,50 +15,57 @@ using System.Windows.Shapes;
 using System.Windows.Media.Animation;
 using System.Threading;
 
-namespace Mascot {
-  class Mascote {
-    private volatile int numAction = 0;
-    private volatile int step = 1;
-    private volatile int xToMove;
-    private string wayShimeOne;
-    private string wayWhimeTwo;
-    private List<string> wayShime;
-    private bool toRight;
-    public  Thread threadMascot;
-    private Random random = new Random();
-    private MainWindow window;
-    private Grid grid;
-    private int ScreenHeight = (int)SystemParameters.PrimaryScreenHeight;
-    private int ScreenWidth = (int)SystemParameters.PrimaryScreenWidth;
-    private int gridWidth;
-    public int NumAction { set { numAction = value; } }
+namespace Mascot
+{
+    class Mascote
+    {
+        private volatile int numAction = 0;
+        private volatile int step = 1;
+        private volatile int xToMove;
+	    	private List<string> wayShime;
+        private bool toRight;
+        public Thread threadMascot;
+        private Random random = new Random();
+        private MainWindow window;
+        private Grid grid;
+        private int ScreenHeight = (int)SystemParameters.PrimaryScreenHeight;
+        private int ScreenWidth = (int)SystemParameters.PrimaryScreenWidth;
+        private int gridWidth;
+        private int windowWidth;
+        public int NumAction { set { numAction = value; } }
 
 
-    public Mascote(Grid mascote, MainWindow mainwindow) {
-      wayShime = new List<string>();
-      for (int i = 0; i < 3; i++) {
-        wayShime.Add("");
+        public Mascote(Grid mascote, MainWindow mainwindow)
+        {
+            threadMascot = new Thread(MascotAI);
+            threadMascot.Start();
+            grid = mascote;
+            gridWidth = (int)grid.Width;
+            window = mainwindow;
+            windowWidth = (int)window.Height;
+            //Начальное положение окна вычисляется с учетом данных формы.
+            window.Left = ScreenWidth - 250;
+            window.Top = ScreenHeight - 300 - 40;
+			      wayShime = new List<string>();
+			      for (int i = 0; i < 3; i++) {
+			      wayShime.Add("");
       }
-      threadMascot = new Thread(MascotAI);
-      threadMascot.Start();
-      grid = mascote;
-      gridWidth = (int)grid.Width;
-      window = mainwindow;
-    }
-
-    private void MascotAI() {
-      while (true) {
-        Thread.Sleep(random.Next(5000));
-        int buf = random.Next(2);
-        if (buf == 1) {
-          xToMove = xToMove = ScreenWidth - random.Next(341) - gridWidth;
         }
-        numAction = buf;
-      }
-    }
 
-
-    public void ActionMascote() {
+        private void MascotAI()
+        {
+            while (true)
+            {
+                Thread.Sleep(random.Next(5000));
+                int buf = random.Next(2);
+                if (buf == 1)
+                {
+                    xToMove = xToMove = ScreenWidth - random.Next(341) - windowWidth;
+                }
+                numAction = buf;
+            }
+        }
+        public void ActionMascote() {
       switch (numAction) {
         // 0 - стоять на месте
         // 1 - ходить в какую-либо сторону
@@ -138,8 +145,5 @@ namespace Mascot {
     private void doStand() {
       AnimationMascote.Animation(grid, "img/shime1.png");
     }
-    public void ThreadAIStop () {
-      threadMascot.Suspend();
-    }
-  }
+	}
 }
