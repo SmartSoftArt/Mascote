@@ -94,3 +94,4 @@ F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndr
 F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
 F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
 F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\IPlugin.dll

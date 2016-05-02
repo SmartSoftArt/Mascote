@@ -63,7 +63,7 @@
 
                     <StackPanel Grid.ColumnSpan="2">
                         <Button Content="Х" Height="20" Margin="80,0,0,0" Click="Button_Click"/>
-                        <TextBlock TextWrapping="Wrap"  FontSize="15" HorizontalAlignment="Center" Margin="4,0,11,0" Height="40" RenderTransformOrigin="0.25,-0.25" Width="85"><Run Text="This is a balloon-shaped window."/></TextBlock>
+                        <TextBlock x:Name="lab" TextWrapping="Wrap"  FontSize="15" HorizontalAlignment="Center" Margin="4,0,11,0" Height="40" RenderTransformOrigin="0.25,-0.25" Width="85"><Run Text="This is a balloon-shaped window."/></TextBlock>
                     </StackPanel>
 
 

@@ -15,10 +15,13 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
 using System.Threading;
+using System.Reflection;
+using IPlugin;
 // Скрытие Альттаба
 using System.Runtime.InteropServices;
 using System.Windows.Interop;
 // Конец Скрытия
+
 namespace Mascot {
   /// <summary>
   /// Логика взаимодействия для MainWindow.xaml
@@ -44,10 +47,18 @@ namespace Mascot {
     public static volatile bool MascotIsHidden = false;
     public static volatile bool MenuIsShow = false;
 
+    public volatile List<string> list = new List<string>();
+    public  Assembly asm = Assembly.LoadFile(@"F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\dll_1.dll");
+
     Mascote mascote;
     public MainWindow() {
       InitializeComponent();
       mascote = new Mascote(grid, MainWindow1);
+      list.Add("");
+      Thread pluginThread;
+      pluginThread = new Thread(PlugThread);
+      pluginThread.Start();
+
       //Таймер для анимации
       System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
       timer.Tick += new EventHandler(TimerTick);
@@ -92,6 +103,11 @@ namespace Mascot {
       tray.ContextMenu = this.contextMenu1;
     }
 
+    private void PlugThread(object obj) {
+      var plugin = Activator.CreateInstance(asm.GetTypes().First(t => t.GetInterfaces().Contains(typeof(IPlugin.IPlugin)))) as IPlugin.IPlugin;
+      plugin.MainPlug(ref list, 0);
+    }
+
     void tray_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
       if (e.Button == System.Windows.Forms.MouseButtons.Left) {
         if (!notification.IsOpen) {
@@ -100,6 +116,7 @@ namespace Mascot {
         notification.IsOpen = true;
         mascote.threadMascot.Suspend();
         mascote.NumAction = 2;
+        lab.Text = list[0];
       }
     }
     private void menuItemExit_Click(object sender, EventArgs e) {
@@ -123,9 +140,11 @@ namespace Mascot {
       this.Top -= 17;
       mascote.NumAction = 0;
       notification.IsOpen = false;
+      
     }
 
     private void grid_Click(object sender, EventArgs e) {
+
       if (MenuIsShow == false) {
         MenuShow();
         mascote.threadMascot.Suspend();
