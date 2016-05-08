@@ -48,7 +48,7 @@ namespace Mascot {
     public static volatile bool MenuIsShow = false;
 
     public volatile List<string> list = new List<string>();
-    public  Assembly asm = Assembly.LoadFile(@"F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\dll_1.dll");
+    public Assembly asm = Assembly.Load(Properties.Resources.dll_1);
 
     Mascote mascote;
     public MainWindow() {

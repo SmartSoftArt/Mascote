@@ -95,3 +95,20 @@ F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndr
 F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
 F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
 F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\IPlugin.dll
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\IPlugin.dll
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\App.g.cs
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+C:\Users\Izneueel\Documents\MascoteW\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
