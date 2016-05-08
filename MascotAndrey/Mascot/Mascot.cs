@@ -16,6 +16,7 @@ using System.Windows.Media.Animation;
 using System.Threading;
 
 namespace Mascot {
+
   class Mascote {
     private volatile int numAction = 0;
     private volatile int step = 1;
@@ -57,6 +58,7 @@ namespace Mascot {
         numAction = buf;
       }
     }
+
     public void ActionMascote() {
       switch (numAction) {
         // 0 - стоять на месте
@@ -81,9 +83,11 @@ namespace Mascot {
           }
       }
     }
+
     private void doStand() {
       AnimationMascote.Animation(grid, "img/shime1.png");
     }
+
     private void doWalk() {
       if (window.Left > xToMove) {
         wayShime[0] = "img/mov/shime2.png";
@@ -124,6 +128,7 @@ namespace Mascot {
           }
       }
     }
+
     private void doNotification() {
       wayShime[0] = ("img/shime31.png");
       wayShime[1] = ("img/shime32.png");
@@ -146,6 +151,7 @@ namespace Mascot {
           }
       }
     }
+
     private void doMenu() {
       wayShime[0] = ("img/shime54.png");
       wayShime[1] = ("img/shime55.png");
@@ -161,5 +167,8 @@ namespace Mascot {
           }
       }
     }
+
   }
+
+
 }

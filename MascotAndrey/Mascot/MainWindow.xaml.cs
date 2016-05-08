@@ -136,28 +136,32 @@ namespace Mascot {
     }
 
     private void Button_Click(object sender, RoutedEventArgs e) {
-      mascote.threadMascot.Resume();
-      this.Top -= 17;
-      mascote.NumAction = 0;
-      notification.IsOpen = false;
+        if (MenuIsShow == false)
+        mascote.threadMascot.Resume();
+        this.Top -= 17;
+        mascote.NumAction = 0;
+        notification.IsOpen = false;
       
     }
 
-    private void grid_Click(object sender, EventArgs e) {
-
-      if (MenuIsShow == false) {
-        MenuShow();
-        mascote.threadMascot.Suspend();
-        mascote.NumAction = 3;
-        MenuIsShow = true;
-      } else {
-        MenuClose();
-        mascote.threadMascot.Resume();
-        mascote.NumAction = 0;
-        MenuIsShow = false;
-      }
-
+    private void grid_Click(object sender, EventArgs e)
+    { 
+        if (MenuIsShow == false) {
+            MenuShow();
+            mascote.threadMascot.Suspend();
+            mascote.NumAction = 3;
+            MenuIsShow = true;
+        }
+        else
+        {
+            MenuClose();
+            if (notification.IsOpen == false)
+            mascote.threadMascot.Resume();
+            mascote.NumAction = 0;
+            MenuIsShow = false;
+        }
     }
+
     private void TimerTick(object sender, EventArgs e) {
       mascote.ActionMascote();
     }
