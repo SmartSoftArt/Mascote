@@ -24,9 +24,6 @@ F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompi
 F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
 F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
 F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
-F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
-F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
-F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
 C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
 C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.exe
 C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.pdb

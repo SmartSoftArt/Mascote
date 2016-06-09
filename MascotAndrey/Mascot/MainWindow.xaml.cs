@@ -47,17 +47,36 @@ namespace Mascot {
     public static volatile bool MascotIsHidden = false;
     public static volatile bool MenuIsShow = false;
 
-    public volatile List<string> list = new List<string>();
-    public  Assembly asm = Assembly.LoadFile(@"F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\dll_1.dll");
+    internal List<string> plugMsg = new List<string>();
+		public volatile List<Thread> plugThread;
+		public Assembly asm;
+		struct pluginParam {
+			public int num;
+		  public string path;
+		}
 
     Mascote mascote;
     public MainWindow() {
       InitializeComponent();
-      mascote = new Mascote(grid, MainWindow1);
-      list.Add("");
-      Thread pluginThread;
-      pluginThread = new Thread(PlugThread);
-      pluginThread.Start();
+			mascote = new Mascote(grid, MainWindow1);
+
+			//Запуск плагинов
+
+			System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(@"plugin/");// папка с файлами 
+			List<string> dirDll = new List<string>();
+			foreach (System.IO.FileInfo file in dir.GetFiles("*.dll")) {
+				dirDll.Add(file.FullName);
+			}
+			plugThread = new List<Thread>();
+			pluginParam plugParamForThreads = new pluginParam();
+			for (int i = 0; i < dirDll.Count; i++) {
+				plugMsg.Add("");
+				plugThread.Add(new Thread(PlugThread));
+				plugParamForThreads.num = i;
+				plugParamForThreads.path = dirDll[i];
+				plugThread[i].Start(plugParamForThreads);
+			}
+
 
       //Таймер для анимации
       System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
@@ -104,8 +123,12 @@ namespace Mascot {
     }
 
     private void PlugThread(object obj) {
-      var plugin = Activator.CreateInstance(asm.GetTypes().First(t => t.GetInterfaces().Contains(typeof(IPlugin.IPlugin)))) as IPlugin.IPlugin;
-      plugin.MainPlug(ref list, 0);
+			pluginParam param = new pluginParam();
+			param = (pluginParam)obj;
+			var pluginAssembly = Assembly.LoadFile(param.path);
+			var pluginType = pluginAssembly.GetTypes().Where(t => typeof(IPlugin.IPlugin).IsAssignableFrom(t)).Single();
+			IPlugin.IPlugin plugin = (IPlugin.IPlugin)pluginType.GetConstructor(new Type[0]).Invoke(null);
+      plugin.MainPlug(ref plugMsg, param.num);
     }
 
     void tray_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e) {
@@ -116,7 +139,7 @@ namespace Mascot {
         notification.IsOpen = true;
         mascote.threadMascot.Suspend();
         mascote.NumAction = 2;
-        lab.Text = list[0];
+        lab.Text = plugMsg[0];
       }
     }
     private void menuItemExit_Click(object sender, EventArgs e) {
@@ -136,7 +159,12 @@ namespace Mascot {
     }
 
     private void Button_Click(object sender, RoutedEventArgs e) {
-      mascote.threadMascot.Resume();
+			if (mascote.threadMascot.ThreadState == System.Threading.ThreadState.Suspended) {
+				mascote.threadMascot.Resume();
+			}
+			if (MenuIsShow == true) {
+				MenuClose();
+			}
       this.Top -= 17;
       mascote.NumAction = 0;
       notification.IsOpen = false;
@@ -152,7 +180,13 @@ namespace Mascot {
         MenuIsShow = true;
       } else {
         MenuClose();
-        mascote.threadMascot.Resume();
+				if (mascote.threadMascot.ThreadState == System.Threading.ThreadState.Suspended) {
+					mascote.threadMascot.Resume();
+				}
+				if (notification.IsOpen == true) {
+					notification.IsOpen = false;
+					this.Top -= 17;
+				}
         mascote.NumAction = 0;
         MenuIsShow = false;
       }
