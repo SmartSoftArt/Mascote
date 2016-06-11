@@ -1,0 +1,16 @@
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Release\Mascot.exe.config
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Release\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Release\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot.csprojResolveAssemblyReference.cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\MainWindow.baml
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\MainWindow.g.cs
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\App.g.cs
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot_MarkupCompile.cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot.g.resources
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot.Properties.Resources.resources
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot.csproj.GenerateResource.Cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Release\Mascot.pdb
