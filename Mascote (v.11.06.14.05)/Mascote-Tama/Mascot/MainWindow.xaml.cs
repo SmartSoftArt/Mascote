@@ -48,8 +48,8 @@ namespace Mascot {
     public static volatile bool MenuIsShow = false;
 
     // Работа с плагинами
-    Plg plg;
 
+    Plg plg = new Plg();
     Mascote mascote;
     public MainWindow() {
       InitializeComponent();
@@ -107,7 +107,7 @@ namespace Mascot {
         notification.IsOpen = true;
         mascote.threadMascot.Suspend();
         mascote.NumAction = 2;
-        lab.Text = plg.plugMsg[0];
+        lab.Text = plg.Msg[0];
       }
     }
     private void menuItemExit_Click(object sender, EventArgs e) {

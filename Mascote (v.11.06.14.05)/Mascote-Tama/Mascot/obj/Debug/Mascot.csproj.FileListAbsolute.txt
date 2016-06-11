@@ -95,3 +95,17 @@ F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\IPlugin.dll
 C:\Users\IndeveR\Documents\Mascote\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
 C:\Users\IndeveR\Documents\Mascote\MascotAndrey\Mascot\obj\Debug\Mascot.exe
 C:\Users\IndeveR\Documents\Mascote\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\IPlugin.dll
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\MainWindow.baml
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\MainWindow.g.cs
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\App.g.cs
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.g.resources
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+C:\Users\IndeveR\Documents\Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
