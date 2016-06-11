@@ -48,7 +48,11 @@ namespace Mascot
             {
                 Thread.Sleep(random.Next(5000));
                 int buf = random.Next(2);
-                if (buf == 1) { i_xToMove = i_xToMove = ScreenWidth - random.Next(341) - windowWidth; }
+                if (buf == 1)
+                {
+                    i_xToMove = i_xToMove = ScreenWidth - random.Next(341) - windowWidth;
+                }
+
                 num_Action = buf;
             }
         }
