@@ -1,0 +1,111 @@
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\bin\Debug\Mascot.exe.config
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\MainWindow.baml
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\MainWindow.g.cs
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\App.g.cs
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.g.resources
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\bin\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\bin\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\Mascot\Mascot\obj\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\App.g.cs
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\App.g.cs
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+C:\Users\IndeveR\Documents\archive\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+C:\Users\Андрей\Desktop\Mascote-Ivan\archive\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\Андрей\Desktop\Mascote-Ivan\archive\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+C:\Users\Андрей\Desktop\Mascote-Ivan\archive\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\App.g.cs
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+C:\Users\IndeveR\Documents\Mascote (v.22.03.17.00)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\App.g.cs
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+C:\Users\IndeveR\Documents\Mascote (v.23.03. 20.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.exe
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Mascot.pdb
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\MainWindow.baml
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\MainWindow.g.cs
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\App.g.cs
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.g.resources
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+F:\С#\DownloadManga\Git\Mascot\Mascote (v.23.03. 21.20)\Mascote-Tama\MascotAndrey\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache
+F:\С#\DownloadManga\Git\Mascot\MascotAndrey\Mascot\bin\Debug\IPlugin.dll
+C:\Users\IndeveR\Documents\Mascote\MascotAndrey\Mascot\bin\Debug\Mascot.exe.config
+C:\Users\IndeveR\Documents\Mascote\MascotAndrey\Mascot\obj\Debug\Mascot.exe
+C:\Users\IndeveR\Documents\Mascote\MascotAndrey\Mascot\obj\Debug\Mascot.pdb
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\Mascot.exe.config
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.exe
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.pdb
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\Mascot.exe
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\Mascot.pdb
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\bin\Debug\IPlugin.dll
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.csprojResolveAssemblyReference.cache
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\MainWindow.baml
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\MainWindow.g.cs
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\App.g.cs
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot_MarkupCompile.cache
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.g.resources
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.Properties.Resources.resources
+D:\MS Project Mascote\Mascote (v.11.06.14.05)\Mascote-Tama\Mascot\obj\Debug\Mascot.csproj.GenerateResource.Cache

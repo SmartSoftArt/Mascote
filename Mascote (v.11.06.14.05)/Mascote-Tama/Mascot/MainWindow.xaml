@@ -1,0 +1,76 @@
+﻿<Window x:Name="MainWindow1" x:Class="Mascot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="300" Width="250" Margin="0" Title="Title" Visibility="Visible" Focusable="False" UseLayoutRounding="True" Topmost="True" IsTabStop="True" ShowActivated="False" IsManipulationEnabled="True" IsHitTestVisible="True" AllowDrop="True" Icon="img/icon.png" Cursor="Arrow" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None" SnapsToDevicePixels="True" ShowInTaskbar="False"
+        xmlns:tb="http://www.hardcodet.net/taskbar" 
+        Top="600" Left="1238" Loaded="MainWindow1_Loaded">
+    <Window.Background>
+        <SolidColorBrush Color="White" Opacity="0"/>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="But1" Content="Button" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="But2" Content="Button" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="But3" Content="Button" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="But4" Content="Button" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Grid x:Name="grid" HorizontalAlignment="Right" Height="128" VerticalAlignment="Bottom" Width="128" ForceCursor="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="37*"/>
+            </Grid.RowDefinitions>
+            <Popup x:Name="notification" AllowsTransparency="True">
+
+                <Grid Height="100" Width="100">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="39*"/>
+                        <ColumnDefinition Width="11*"/>
+                    </Grid.ColumnDefinitions>
+                    <Path Stroke="DarkGray" StrokeThickness="1" SnapsToDevicePixels="True" Margin="0.069,0,21.469,24.615" Stretch="Fill" Grid.ColumnSpan="2">
+
+                        <Path.Fill>
+                            <LinearGradientBrush StartPoint="0.2,0" EndPoint="0.8,1" >
+                                <LinearGradientBrush.GradientStops>
+                                    <GradientStop Color="White"  Offset="0"></GradientStop>
+                                    <GradientStop Color="White"  Offset="0.45"></GradientStop>
+                                    <GradientStop Color="LightBlue" Offset="0.9"></GradientStop>
+                                    <GradientStop Color="Gray" Offset="1"></GradientStop>
+                                </LinearGradientBrush.GradientStops>
+                            </LinearGradientBrush>
+                        </Path.Fill>
+
+                        <Path.Data>
+                            <PathGeometry>
+                                <PathGeometry.Figures>
+                                    <PathFigure StartPoint="20,0" IsClosed="True">
+                                        <LineSegment Point="140,0"></LineSegment>
+                                        <ArcSegment Point="160,20" Size="20,20" SweepDirection="Clockwise"></ArcSegment>
+                                        <LineSegment Point="160,60"></LineSegment>
+                                        <ArcSegment Point="140,80" Size="20,20" SweepDirection="Clockwise"></ArcSegment>
+                                        <LineSegment Point="70,80"></LineSegment>
+                                        <LineSegment Point="70,130"></LineSegment>
+                                        <LineSegment Point="40,80"></LineSegment>
+                                        <LineSegment Point="20,80"></LineSegment>
+                                        <ArcSegment Point="0,60" Size="20,20" SweepDirection="Clockwise"></ArcSegment>
+                                        <LineSegment Point="0,20"></LineSegment>
+                                        <ArcSegment Point="20,0" Size="20,20" SweepDirection="Clockwise"></ArcSegment>
+                                    </PathFigure>
+                                </PathGeometry.Figures>
+                            </PathGeometry>
+                        </Path.Data>
+                        <Path.RenderTransform>
+                            <ScaleTransform ScaleX="1.3" ScaleY="1.3"></ScaleTransform>
+                        </Path.RenderTransform>
+
+                    </Path>
+
+                    <StackPanel Grid.ColumnSpan="2">
+                        <Button Content="Х" Height="20" Margin="80,0,0,0" Click="Button_Click"/>
+                        <TextBlock x:Name="lab" TextWrapping="Wrap"  FontSize="15" HorizontalAlignment="Center" Margin="4,0,11,0" Height="40" RenderTransformOrigin="0.25,-0.25" Width="85"><Run Text="This is a balloon-shaped window."/></TextBlock>
+                    </StackPanel>
+
+
+                </Grid>
+
+            </Popup>
+        </Grid>
+    </Grid>
+
+</Window>
